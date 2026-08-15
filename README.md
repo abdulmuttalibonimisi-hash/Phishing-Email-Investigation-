@@ -221,3 +221,11 @@ The domain's long registration history does not establish legitimacy. Domain age
 bf7628695c2d7fa3020034a065397592a1f8850e59f9a448b555bc1c8c639539
 5ca468704e7ccb8e1b37c0f7595c54df4e2f4035345b6e442e8bd4e11c58f791
 453fb1c4b3b48361fa8a67dcedf1eaec39449cb5a146a7770c63d1dc0d7562f0
+
+
+Conclusion
+The investigation identified multiple indicators consistent with a phishing email delivering or directing the recipient toward malicious infrastructure.
+The strongest findings were the suspicious executable URL, the VirusTotal malicious reputation for 107.175.247.199, the URLhaus classification of the URL as a malware download, and the association of the infrastructure with AsyncRAT, BitRAT, and CoinMiner payloads.
+The payload SHA-256 investigations also produced high VirusTotal detection rates, providing additional evidence of malicious activity.
+The email authentication results, including SPF SoftFail, DKIM Fail, and the absence of a DMARC policy, added further suspicion.
+Based on the combined evidence, the email should be treated as malicious or highly suspicious in a SOC investigation.
