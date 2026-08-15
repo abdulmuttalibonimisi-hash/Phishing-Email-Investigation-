@@ -8,7 +8,7 @@ Analyze the suspicious email and sender information
 Examine email headers and identify suspicious indicators
 Investigate the sender domain and IP information
 Extract and analyze potential IOCs
-Analyze encoded content using CyberChef
+Decode and analyze encoded content using CyberChef
 Identify potential malware or malicious behavior
 Document findings and investigation evidence
 Tools Used
@@ -33,11 +33,10 @@ Further analysis of the encoded content revealed content associated with cryptoc
 The investigation findings, screenshots, and supporting evidence are stored in the evidence directory.
 Evidence
 The evidence directory contains:
+Reconstructed phishing email
 Investigation screenshots
-Reconstructed email
 Relevant email information
 Supporting analysis evidence
-Sensitive information was handled carefully during the investigation.
 Conclusion
 The email showed characteristics consistent with a phishing attempt and contained indicators requiring further security investigation.
 The investigation demonstrates a basic SOC workflow for analyzing suspicious emails, extracting IOCs, investigating infrastructure, and documenting findings.
